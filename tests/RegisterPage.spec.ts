@@ -10,5 +10,12 @@ test.describe("Register Page", () => {
     await expect(page).toHaveURL(/account\/create/);
   });
 
-  test("Verify user can register successfully", async ({page}) => {});
+  test("Verify user can register successfully", async ({page}) => {
+    await page.locator("#AccountFrm_firstname").fill("Mohammad");
+    await page.locator("#AccountFrm_lastname").fill("Alhijaa");
+    await page.locator("#AccountFrm_email").fill("mohammad@example.com");
+    await page.locator("#AccountFrm_address_1").fill("Amman");
+    await page.locator("#AccountFrm_city").fill("Amman");
+    
+  });
 });
