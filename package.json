@@ -1,0 +1,22 @@
+{
+  "name": "automatien_palywright_teststore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammad2001ah/Automatien_palywright_testStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammad2001ah/Automatien_palywright_testStore/issues"
+  },
+  "homepage": "https://github.com/mohammad2001ah/Automatien_palywright_testStore#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
+}
