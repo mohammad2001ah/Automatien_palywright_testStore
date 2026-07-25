@@ -41,7 +41,7 @@ test.describe("Register Page > Happy Scenario", () => {
   });
 });
 
-test.describe("", () => {
+test.describe("Register Page - Negative Scenarios", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("https://automationteststore.com/");
     await page.getByRole('link', { name: 'Login or register' }).click();
